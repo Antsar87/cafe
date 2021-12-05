@@ -20,9 +20,43 @@ a {
   max-width: 1200px;
   margin: 0 auto; }
 
+.button {
+  padding: 1.5rem 4rem;
+  font-size: 2rem; }
+
+.button-brown {
+  color: #262525;
+  background: #a99384; }
+
 .header {
+  z-index: 10;
   background: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.582)), url(/images/hero.jpg) center center/cover;
-  height: 100vh; }
+  height: 100vh;
+  position: relative; }
+  .header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    border: 1px solid red;
+    height: 100%;
+    width: 100%;
+    z-index: -1; }
+    .header__content--box--center {
+      margin-bottom: 25rem;
+      margin-top: 10rem; }
+    .header__content--box {
+      border: 1px solid red; }
+      .header__content--box h2 {
+        font-size: 5rem; }
+      .header__content--box p {
+        margin: 5rem 0;
+        line-height: 2rem; }
+      .header__content--box a {
+        display: inline-block; }
 
 .nav {
   display: flex;
