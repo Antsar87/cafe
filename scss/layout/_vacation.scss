@@ -1,0 +1,14 @@
+.vacation__section {
+  background: #E6E7E6;
+  text-align: center;
+  padding: 3rem;
+  line-height: 1.7;
+
+  &--content {
+    padding-bottom: 2rem;
+   h2 {
+     margin: 3rem;
+     font-size: 3.5rem;
+   }
+  }
+}
