@@ -1,5 +1,10 @@
+html {
+  font-size: 62.5%; }
+
 body {
-  font-family: 'Questrial', sans-serif; }
+  font-family: 'Questrial', sans-serif;
+  line-height: 1.6rem;
+  font-size: 1.6rem; }
 
 *,
 *::after,
@@ -7,3 +12,34 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.header {
+  background: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.582)), url(/images/hero.jpg) center center/cover;
+  height: 100vh; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0; }
+  .nav img {
+    width: 15rem;
+    height: 5rem;
+    object-fit: cover;
+    background: white; }
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem; }
+    .nav ul .active {
+      color: #262525; }
+    .nav ul a {
+      font-size: 2rem;
+      color: #a99384; }
