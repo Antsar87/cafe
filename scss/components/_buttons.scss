@@ -1,0 +1,20 @@
+.button {
+  padding: 1.5rem 4rem;
+  font-size: 2rem;
+
+  &-down {
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 4rem;
+  }
+
+  &-brown {
+    color: $color-black;
+    background: $color-brown;
+  }
+
+  &-black-line {
+    color: $color-black;
+    border: 1px solid;
+  }
+}
