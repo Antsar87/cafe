@@ -23,10 +23,16 @@ a {
 .button {
   padding: 1.5rem 4rem;
   font-size: 2rem; }
-
-.button-brown {
-  color: #262525;
-  background: #a99384; }
+  .button-down {
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 4rem; }
+  .button-brown {
+    color: #262525;
+    background: #a99384; }
+  .button-black-line {
+    color: #262525;
+    border: 1px solid; }
 
 .header {
   z-index: 10;
@@ -46,17 +52,15 @@ a {
     width: 100%;
     z-index: -1; }
     .header__content--box--center {
-      margin-bottom: 25rem;
+      margin-bottom: 15rem;
       margin-top: 10rem; }
-    .header__content--box {
-      border: 1px solid red; }
-      .header__content--box h2 {
-        font-size: 5rem; }
-      .header__content--box p {
-        margin: 5rem 0;
-        line-height: 2rem; }
-      .header__content--box a {
-        display: inline-block; }
+    .header__content--box h2 {
+      font-size: 5rem; }
+    .header__content--box p {
+      margin: 5rem 0;
+      line-height: 2rem; }
+    .header__content--box a {
+      display: inline-block; }
 
 .nav {
   display: flex;
