@@ -47,7 +47,6 @@ a {
     position: absolute;
     top: 0;
     text-align: center;
-    border: 1px solid red;
     height: 100%;
     width: 100%;
     z-index: -1; }
@@ -81,3 +80,14 @@ a {
     .nav ul a {
       font-size: 2rem;
       color: #a99384; }
+
+.vacation__section {
+  background: #E6E7E6;
+  text-align: center;
+  padding: 3rem;
+  line-height: 1.7; }
+  .vacation__section--content {
+    padding-bottom: 2rem; }
+    .vacation__section--content h2 {
+      margin: 3rem;
+      font-size: 3.5rem; }
