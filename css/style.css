@@ -164,6 +164,34 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
 
+.header-about-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5rem; }
+
+.about-me-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(20rem, 35rem));
+  grid-auto-rows: 45rem;
+  gap: 5rem; }
+
+.about-me {
+  background: white; }
+  .about-me__img {
+    border: 1px solid #262525; }
+  .about-me h2 {
+    color: #a99384;
+    text-transform: capitalize;
+    font-size: 3rem; }
+  .about-me p {
+    line-height: 2rem; }
+
 .header {
   z-index: 10;
   background: linear-gradient(rgba(38, 37, 37, 0.582), rgba(38, 37, 37, 0.582)), url(../images/hero.jpg) top/cover;
@@ -193,32 +221,29 @@ a {
       .header__content--box a {
         display: inline-block; }
 
-.header-about {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
-  .header-about__box--1__title {
-    color: #a99384; }
-  .header-about__box--1 h2 {
-    font-size: 4rem; }
-  .header-about__box--1 p {
-    color: #262525;
-    line-height: 2rem; }
-  .header-about__box--2 {
-    background: #a99384;
-    color: white;
-    line-height: 2rem; }
+.header-about__box--1__title {
+  color: #a99384; }
 
-.info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5rem; }
-  .info h2 {
-    text-transform: capitalize; }
-  .info img {
-    width: 100%; }
-  .info p {
-    line-height: 2rem; }
+.header-about__box--1 h2 {
+  font-size: 4rem; }
+
+.header-about__box--1 p {
+  color: #262525;
+  line-height: 2rem; }
+
+.header-about__box--2 {
+  background: #a99384;
+  color: white;
+  line-height: 2rem; }
+
+.info h2 {
+  text-transform: capitalize; }
+
+.info img {
+  width: 100%; }
+
+.info p {
+  line-height: 2rem; }
 
 .nav {
   display: flex;
@@ -226,8 +251,6 @@ a {
   align-items: center;
   padding: 2rem 0;
   z-index: 10; }
-  .nav-about {
-    background: #e6e7e6; }
   .nav img {
     width: 15rem;
     height: 5rem;
@@ -244,6 +267,12 @@ a {
       transition: color 1s ease; }
       .nav ul a:hover {
         color: #a99384; }
+  .nav-otherPages a {
+    color: #a99384 !important; }
+    .nav-otherPages a:hover {
+      color: white !important; }
+  .nav-otherPages .active {
+    color: #262525 !important; }
 
 .vacation__section {
   background: #e6e7e6;

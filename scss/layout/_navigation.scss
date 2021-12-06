@@ -3,10 +3,6 @@
   padding: 2rem 0;
   z-index: 10;
 
-  &-about {
-    background: $color-grey;
-  }
-
   img {
     width: 15rem;
     height: 5rem;
@@ -27,9 +23,23 @@
       color: $color-white;
       transition: color 1s ease;
 
-      &:hover{
+      &:hover {
         color: $color-brown;
       }
+    }
+  }
+
+  &-otherPages {
+    a {
+      color: $color-brown !important;
+
+      &:hover {
+        color: $color-white !important;
+      }
+    }
+
+    .active {
+      color: $color-black !important;
     }
   }
 }

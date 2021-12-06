@@ -1,0 +1,17 @@
+.about-me {
+  background: $color-white;
+
+  &__img {
+    border: 1px solid $color-black;
+  }
+
+  h2 {
+    color: $color-brown;
+    text-transform: capitalize;
+    font-size: 3rem;
+  }
+
+  p {
+    line-height: 2rem;
+  }
+}

@@ -1,7 +1,4 @@
 .header-about {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 
   &__box--1 {
     &__title {

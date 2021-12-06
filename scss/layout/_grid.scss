@@ -19,3 +19,29 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
 }
+
+/////////////////////////////////
+
+.header-about-grid {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+/////////////////////////////////
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5rem;
+}
+
+/////////////////////////////////
+
+.about-me-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, minmax(20rem, 35rem));
+  grid-auto-rows: 45rem;
+  gap: 5rem;
+}
