@@ -1,6 +1,7 @@
 .nav {
   @include flex-sb-center;
   padding: 2rem 0;
+  z-index: 10;
 
   img {
     width: 15rem;
