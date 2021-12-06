@@ -20,6 +20,12 @@ a {
   max-width: 1200px;
   margin: 0 auto; }
 
+.mtb-6 {
+  margin: 6rem 0; }
+
+.text-center {
+  text-align: center; }
+
 .button {
   padding: 1.5rem 4rem;
   font-size: 2rem; }
@@ -33,6 +39,14 @@ a {
   .button-black-line {
     color: #262525;
     border: 1px solid; }
+
+.line-text {
+  border-bottom: 3px solid #e6e7e6;
+  text-align: center;
+  padding-bottom: 5rem;
+  color: #a99384; }
+  .line-text h2 {
+    font-size: 3rem; }
 
 .header {
   z-index: 10;
