@@ -37,8 +37,8 @@ a {
   .button-brown {
     color: #262525;
     background: #a99384; }
-  .button-black-line {
-    color: #262525;
+  .button-white-line {
+    color: white;
     border: 1px solid; }
 
 .line-text {
@@ -69,7 +69,7 @@ a {
 
 .header {
   z-index: 10;
-  background: linear-gradient(rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0.582)), url(../images/hero.jpg) center center/cover;
+  background: linear-gradient(rgba(38, 37, 37, 0.582), rgba(38, 37, 37, 0.582)), url(../images/hero.jpg) top/cover;
   height: 100vh;
   position: relative; }
   .header__content {
@@ -86,13 +86,15 @@ a {
     .header__content--box--center {
       margin-bottom: 15rem;
       margin-top: 10rem; }
-    .header__content--box h2 {
-      font-size: 5rem; }
-    .header__content--box p {
-      margin: 5rem 0;
-      line-height: 2rem; }
-    .header__content--box a {
-      display: inline-block; }
+    .header__content--box {
+      color: white; }
+      .header__content--box h2 {
+        font-size: 5rem; }
+      .header__content--box p {
+        margin: 5rem 0;
+        line-height: 2rem; }
+      .header__content--box a {
+        display: inline-block; }
 
 .nav {
   display: flex;
@@ -103,17 +105,16 @@ a {
   .nav img {
     width: 15rem;
     height: 5rem;
-    object-fit: cover;
-    background: white; }
+    object-fit: cover; }
   .nav ul {
     display: flex;
     list-style: none;
     gap: 2rem; }
     .nav ul .active {
-      color: #262525; }
+      color: #e6e7e6; }
     .nav ul a {
       font-size: 2rem;
-      color: #a99384; }
+      color: white; }
 
 .vacation__section {
   background: #e6e7e6;
