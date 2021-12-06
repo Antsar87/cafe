@@ -21,6 +21,11 @@
     a {
       font-size: 2rem;
       color: $color-white;
+      transition: color 1s ease;
+
+      &:hover{
+        color: $color-brown;
+      }
     }
   }
 }

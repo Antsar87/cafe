@@ -114,7 +114,10 @@ a {
       color: #e6e7e6; }
     .nav ul a {
       font-size: 2rem;
-      color: white; }
+      color: white;
+      transition: color 1s ease; }
+      .nav ul a:hover {
+        color: #a99384; }
 
 .vacation__section {
   background: #e6e7e6;
