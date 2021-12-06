@@ -27,6 +27,12 @@ a {
 .text-center {
   text-align: center; }
 
+.font-didot {
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif; }
+
+.font-beautiful {
+  font-family: 'Beautiful People Personal Use', sans-serif; }
+
 .button {
   padding: 1.5rem 4rem;
   font-size: 2rem; }
@@ -128,7 +134,8 @@ a {
     padding-bottom: 2rem; }
     .vacation__section--content h2 {
       margin: 3rem;
-      font-size: 3.5rem; }
+      font-size: 3.5rem;
+      font-weight: 300; }
 
 .cafe__section--box {
   line-height: 1.5;
