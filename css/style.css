@@ -209,6 +209,17 @@ a {
     color: white;
     line-height: 2rem; }
 
+.info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5rem; }
+  .info h2 {
+    text-transform: capitalize; }
+  .info img {
+    width: 100%; }
+  .info p {
+    line-height: 2rem; }
+
 .nav {
   display: flex;
   justify-content: space-between;
