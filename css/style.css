@@ -3,6 +3,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
+  background: #e6e7e6;
   font-family: 'Questrial', sans-serif;
   line-height: 1.6rem;
   font-size: 1.6rem; }
@@ -23,6 +24,96 @@ a {
 
 .mtb-6 {
   margin: 6rem 0; }
+
+.pt-1 {
+  padding-top: 1rem; }
+
+.pt-2 {
+  padding-top: 2rem; }
+
+.pt-3 {
+  padding-top: 3rem; }
+
+.pt-4 {
+  padding-top: 4rem; }
+
+.pt-5 {
+  padding-top: 5rem; }
+
+.pb-1 {
+  padding-bottom: 1rem; }
+
+.pb-2 {
+  padding-bottom: 2rem; }
+
+.pb-3 {
+  padding-bottom: 3rem; }
+
+.pb-4 {
+  padding-bottom: 4rem; }
+
+.pb-5 {
+  padding-bottom: 5rem; }
+
+.pr-1 {
+  padding-right: 1rem; }
+
+.pr-2 {
+  padding-right: 2rem; }
+
+.pr-3 {
+  padding-right: 3rem; }
+
+.pr-4 {
+  padding-right: 4rem; }
+
+.pr-5 {
+  padding-right: 5rem; }
+
+.pr-6 {
+  padding-right: 6rem; }
+
+.pr-7 {
+  padding-right: 7rem; }
+
+.pr-8 {
+  padding-right: 8rem; }
+
+.pr-9 {
+  padding-right: 9rem; }
+
+.pr-10 {
+  padding-right: 10rem; }
+
+.pl-1 {
+  padding-left: 1rem; }
+
+.pl-2 {
+  padding-left: 2rem; }
+
+.pl-3 {
+  padding-left: 3rem; }
+
+.pl-4 {
+  padding-left: 4rem; }
+
+.pl-5 {
+  padding-left: 5rem; }
+
+.pl-6 {
+  padding-left: 6rem; }
+
+.pl-7 {
+  padding-left: 7rem; }
+
+.pl-8 {
+  padding-left: 8rem; }
+
+.pl-9 {
+  padding-left: 9rem; }
+
+.pl-10 {
+  padding-left: 10rem; }
 
 .text-center {
   text-align: center; }
@@ -102,12 +193,30 @@ a {
       .header__content--box a {
         display: inline-block; }
 
+.header-about {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .header-about__box--1__title {
+    color: #a99384; }
+  .header-about__box--1 h2 {
+    font-size: 4rem; }
+  .header-about__box--1 p {
+    color: #262525;
+    line-height: 2rem; }
+  .header-about__box--2 {
+    background: #a99384;
+    color: white;
+    line-height: 2rem; }
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
   z-index: 10; }
+  .nav-about {
+    background: #e6e7e6; }
   .nav img {
     width: 15rem;
     height: 5rem;
@@ -128,25 +237,23 @@ a {
 .vacation__section {
   background: #e6e7e6;
   text-align: center;
-  padding: 3rem;
   line-height: 1.7; }
-  .vacation__section--content {
-    padding-bottom: 2rem; }
-    .vacation__section--content h2 {
-      margin: 3rem;
-      font-size: 3.5rem;
-      font-weight: 300; }
+  .vacation__section--content h2 {
+    margin: 3rem;
+    font-size: 3.5rem;
+    font-weight: 300; }
 
-.cafe__section--box {
-  line-height: 1.5;
-  padding: 1rem 2rem; }
-  .cafe__section--box p {
-    margin-bottom: 2rem; }
-
-.cafe__section img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover; }
+.cafe__section {
+  background: white; }
+  .cafe__section--box {
+    line-height: 1.5;
+    padding: 1rem 2rem; }
+    .cafe__section--box p {
+      margin-bottom: 2rem; }
+  .cafe__section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover; }
 
 .site__section {
   background: #e6e7e6;
