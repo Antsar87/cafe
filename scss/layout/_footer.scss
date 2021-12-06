@@ -1,0 +1,23 @@
+.footer {
+  background: $color-brown;
+  height: 40rem;
+  @include flex-center-center;
+  flex-direction: column;
+
+  &__box {
+    @include flex-center-center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    div {
+      border: 3px solid $color-black;
+      height: 4rem;
+      width: 4rem;
+      border-radius: 50%;
+    }
+  }
+  p {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+}
