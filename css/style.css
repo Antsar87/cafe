@@ -1,5 +1,6 @@
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  scroll-behavior: smooth; }
 
 body {
   font-family: 'Questrial', sans-serif;
@@ -63,6 +64,10 @@ a {
     grid-column: -3 / -1; }
   .cafe__grid div {
     border: 1px solid red; }
+
+.site__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); }
 
 .header {
   z-index: 10;
@@ -128,3 +133,23 @@ a {
   padding: 1rem 2rem; }
   .cafe__section--box p {
     margin-bottom: 2rem; }
+
+.site__section {
+  background: #e6e7e6;
+  padding: 3rem 0; }
+  .site__section--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; }
+    .site__section--box__circle {
+      border: 3px solid #262525;
+      height: 9rem;
+      width: 9rem;
+      border-radius: 50%; }
+    .site__section--box p {
+      margin-bottom: 2rem;
+      font-size: 2.5rem; }
+    .site__section--box h2 {
+      font-size: 2.5rem;
+      font-weight: 300; }

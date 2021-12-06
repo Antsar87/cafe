@@ -16,3 +16,10 @@
     border: 1px solid red;
   }
 }
+
+/////////////////////////////////
+
+.site__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
