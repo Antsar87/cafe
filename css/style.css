@@ -40,6 +40,9 @@ a {
 .pt-5 {
   padding-top: 5rem; }
 
+.pt-10 {
+  padding-top: 10rem; }
+
 .pb-1 {
   padding-bottom: 1rem; }
 
@@ -54,6 +57,9 @@ a {
 
 .pb-5 {
   padding-bottom: 5rem; }
+
+.pb-10 {
+  padding-bottom: 10rem; }
 
 .pr-1 {
   padding-right: 1rem; }
@@ -264,6 +270,9 @@ a {
       height: 3rem;
       width: 3rem;
       border-radius: 50%; }
+
+.sent-header {
+  background: white; }
 
 .contact-info {
   background: white; }
