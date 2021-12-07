@@ -1,0 +1,54 @@
+.contact-info {
+  background: $color-white;
+  &__content {
+    h2,
+    &--title {
+      color: $color-brown;
+      text-transform: capitalize;
+    }
+
+    &--p {
+      line-height: 2rem;
+    }
+
+    ul {
+      list-style: none;
+      li {
+        display: flex;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+    }
+  }
+
+  form {
+    div {
+      display: flex;
+      gap: 2rem;
+    }
+    input,
+    textarea {
+      border: none;
+      background: $color-brown;
+      resize: none;
+      padding: 1.5rem 2rem;
+      display: block;
+      width: 100%;
+      margin-bottom: 1rem;
+
+      &::placeholder {
+        text-transform: capitalize;
+      }
+    }
+
+    textarea {
+      height: 10rem;
+    }
+
+    button {
+      color: $color-white;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

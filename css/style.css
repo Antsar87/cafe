@@ -189,6 +189,13 @@ a {
   justify-content: center;
   gap: 2rem; }
 
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20rem, 50rem));
+  align-items: center;
+  justify-content: center;
+  gap: 2rem; }
+
 .about-me {
   background: white; }
   .about-me__img {
@@ -257,6 +264,41 @@ a {
       height: 3rem;
       width: 3rem;
       border-radius: 50%; }
+
+.contact-info {
+  background: white; }
+  .contact-info__content h2, .contact-info__content--title {
+    color: #a99384;
+    text-transform: capitalize; }
+  .contact-info__content--p {
+    line-height: 2rem; }
+  .contact-info__content ul {
+    list-style: none; }
+    .contact-info__content ul li {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0; }
+  .contact-info form div {
+    display: flex;
+    gap: 2rem; }
+  .contact-info form input,
+  .contact-info form textarea {
+    border: none;
+    background: #a99384;
+    resize: none;
+    padding: 1.5rem 2rem;
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem; }
+    .contact-info form input::placeholder,
+    .contact-info form textarea::placeholder {
+      text-transform: capitalize; }
+  .contact-info form textarea {
+    height: 10rem; }
+  .contact-info form button {
+    color: white;
+    border: none;
+    cursor: pointer; }
 
 .info h2 {
   text-transform: capitalize; }

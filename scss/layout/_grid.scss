@@ -55,3 +55,12 @@
   justify-content: center;
   gap: 2rem;
 }
+
+/////////////////////////////////
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20rem, 50rem));
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
