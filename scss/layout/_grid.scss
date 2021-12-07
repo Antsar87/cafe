@@ -64,3 +64,12 @@
   justify-content: center;
   gap: 2rem;
 }
+
+/////////////////////////////////
+.header-detail-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 50rem));
+  gap: 4rem;
+  align-items: end;
+}

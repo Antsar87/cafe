@@ -143,6 +143,12 @@ a {
   .button-white-line {
     color: white;
     border: 1px solid; }
+  .button-back {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+    color: #a99384; }
 
 .line-text {
   text-align: center;
@@ -201,6 +207,13 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2rem; }
+
+.header-detail-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 50rem));
+  gap: 4rem;
+  align-items: end; }
 
 .about-me {
   background: white; }
@@ -274,19 +287,33 @@ a {
 .sent-header {
   background: white; }
 
+.header-detail {
+  background: white; }
+  .header-detail p {
+    font-size: 2rem; }
+  .header-detail__box h2 {
+    color: #a99384;
+    font-size: 4rem;
+    text-transform: capitalize; }
+  .header-detail__box p {
+    line-height: 2rem; }
+  .header-detail ul {
+    line-height: 3rem; }
+  .header-detail img {
+    width: 100%;
+    height: 50rem;
+    object-fit: cover; }
+
 .contact-info {
   background: white; }
-  .contact-info__content h2, .contact-info__content--title {
-    color: #a99384;
-    text-transform: capitalize; }
-  .contact-info__content--p {
+  .contact-info__content h2, .contact-info__content--p {
     line-height: 2rem; }
-  .contact-info__content ul {
-    list-style: none; }
-    .contact-info__content ul li {
-      display: flex;
-      gap: 1rem;
-      margin: 1rem 0; }
+  .contact-info__content--ul {
+    list-style: none;
+    line-height: 2.5rem; }
+    .contact-info__content--ul__title {
+      color: #a99384;
+      text-transform: capitalize; }
   .contact-info form div {
     display: flex;
     gap: 2rem; }

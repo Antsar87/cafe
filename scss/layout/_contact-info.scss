@@ -2,21 +2,17 @@
   background: $color-white;
   &__content {
     h2,
-    &--title {
-      color: $color-brown;
-      text-transform: capitalize;
-    }
-
     &--p {
       line-height: 2rem;
     }
 
-    ul {
+    &--ul {
       list-style: none;
-      li {
-        display: flex;
-        gap: 1rem;
-        margin: 1rem 0;
+      line-height: 2.5rem;
+
+      &__title {
+        color: $color-brown;
+        text-transform: capitalize;
       }
     }
   }
