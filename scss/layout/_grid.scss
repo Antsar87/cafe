@@ -41,7 +41,17 @@
 .about-me-grid {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(2, minmax(20rem, 35rem));
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 35rem));
   grid-auto-rows: 45rem;
   gap: 5rem;
+}
+
+/////////////////////////////////
+
+.galery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 35rem));
+  grid-auto-rows: 30rem;
+  justify-content: center;
+  gap: 2rem;
 }
