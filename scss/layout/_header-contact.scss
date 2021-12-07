@@ -1,0 +1,17 @@
+.contact-header {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    div {
+      background: $color-black;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%;
+    }
+  }
+}

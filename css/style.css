@@ -244,6 +244,20 @@ a {
   color: white;
   line-height: 2rem; }
 
+.contact-header {
+  list-style: none;
+  display: flex;
+  gap: 2rem; }
+  .contact-header li {
+    display: flex;
+    align-items: center;
+    gap: 1rem; }
+    .contact-header li div {
+      background: #262525;
+      height: 3rem;
+      width: 3rem;
+      border-radius: 50%; }
+
 .info h2 {
   text-transform: capitalize; }
 
