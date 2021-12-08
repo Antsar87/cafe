@@ -126,6 +126,10 @@ body {
   font-family: 'Questrial', sans-serif;
   font-size: 1.6rem; }
 
+.hideme {
+  opacity: 0;
+  margin-top: -10rem; }
+
 *,
 *::after,
 *::before {
