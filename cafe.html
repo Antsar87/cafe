@@ -20,20 +20,37 @@
       href="http://fonts.cdnfonts.com/css/beautiful-people-personal-use"
       rel="stylesheet"
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="container nav nav-otherPages">
       <a href="index.html"><img src="images/logo.png" alt="" /></a>
-      <ul>
+
+      <ul class="nav__menu nav__menu--flex">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="cafe.html" class="active">Cafe</a></li>
         <li><a href="galery.html">Gallery</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+
+      <div class="hambuerger-box">
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">x</button>
+      </div>
     </nav>
+    <div class="menu">
+      <ul class="nav__menu nav-otherPages">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cafe.html" class="active">Cafe</a></li>
+        <li><a href="galery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
     <div class="line-text">
       <h2>all cafe</h2>
@@ -142,5 +159,7 @@
       </div>
       <p>2016-2017 @ Design by Marc. Code by Sayamphum</p>
     </footer>
+    <script src="/script.js"></script>
+
   </body>
 </html>

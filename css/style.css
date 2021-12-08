@@ -365,17 +365,21 @@ a {
     width: 15rem;
     height: 5rem;
     object-fit: cover; }
-  .nav ul {
-    display: flex;
+  .nav__menu {
     list-style: none;
     gap: 2rem; }
-    .nav ul .active {
+    .nav__menu--flex {
+      display: none; }
+      @media (min-width: 576px) {
+        .nav__menu--flex {
+          display: flex; } }
+    .nav__menu .active {
       color: #e6e7e6; }
-    .nav ul a {
+    .nav__menu a {
       font-size: 2rem;
       color: white;
       transition: color 1s ease; }
-      .nav ul a:hover {
+      .nav__menu a:hover {
         color: #a99384; }
   .nav-otherPages a {
     color: #a99384 !important; }
@@ -383,6 +387,37 @@ a {
       color: white !important; }
   .nav-otherPages .active {
     color: #262525 !important; }
+
+@media (min-width: 576px) {
+  .hambuerger-box {
+    display: none !important; } }
+
+.hamburger,
+.cross {
+  background: none;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: #262525;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000; }
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #131313;
+  position: absolute;
+  text-align: center; }
+  .menu li {
+    margin: 2rem 0; }
+  @media (min-width: 576px) {
+    .menu {
+      display: none !important; } }
 
 .vacation__section {
   background: #e6e7e6;

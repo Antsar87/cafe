@@ -9,8 +9,14 @@
     object-fit: cover;
   }
 
-  ul {
-    display: flex;
+  &__menu {
+    &--flex {
+      display: none;
+
+      @include sm {
+        display: flex;
+      }
+    }
     list-style: none;
     gap: 2rem;
 
@@ -41,5 +47,43 @@
     .active {
       color: $color-black !important;
     }
+  }
+}
+
+.hambuerger-box {
+  @include sm {
+    display: none !important;
+  }
+}
+
+.hamburger,
+.cross {
+  background: none;
+  line-height: 45px;
+  padding: 5px 15px 0px 15px;
+  color: $color-black;
+  border: 0;
+  font-size: 1.4em;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  z-index: 10000000000000;
+}
+
+.menu {
+  z-index: 1000000;
+  font-weight: bold;
+  font-size: 0.8em;
+  width: 100%;
+  background: #131313;
+  position: absolute;
+  text-align: center;
+
+  li {
+    margin: 2rem 0;
+  }
+
+  @include sm {
+    display: none !important;
   }
 }
