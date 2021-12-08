@@ -3,9 +3,15 @@
   padding: 3rem 0;
 
   &--box {
-    @include flex-center-center;
+    display: flex;
+    align-items: center;
     gap: 2rem;
+    margin-bottom: 2rem;
     
+    @include sm {
+      @include flex-center-center;
+    }
+
     &__circle {
       border: 3px solid $color-black;
       height: 9rem;

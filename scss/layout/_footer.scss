@@ -3,6 +3,7 @@
   height: 40rem;
   @include flex-center-center;
   flex-direction: column;
+  text-align: center;
 
   &__box {
     @include flex-center-center;

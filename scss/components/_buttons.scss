@@ -1,6 +1,7 @@
 .button {
-  padding: 1.5rem 4rem;
+  padding: 1rem;
   font-size: 2rem;
+  white-space: nowrap;
 
   &-down {
     padding: 1rem;
@@ -23,5 +24,9 @@
     display: inline;
     gap: .25rem;
     color: $color-brown;
+  }
+
+  @include sm {
+  padding: 1.5rem 4rem;
   }
 }
