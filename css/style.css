@@ -145,8 +145,7 @@ a {
     border: 1px solid; }
   .button-back {
     font-size: 2.5rem;
-    display: flex;
-    align-items: center;
+    display: inline;
     gap: .25rem;
     color: #a99384; }
 
