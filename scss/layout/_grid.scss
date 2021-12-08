@@ -73,3 +73,11 @@
   gap: 4rem;
   align-items: end;
 }
+
+/////////////////////////////////
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(24rem, 35rem));
+  justify-content: center;
+  gap: 5rem;
+}
