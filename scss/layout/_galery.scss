@@ -9,11 +9,11 @@
     position: relative;
     overflow: hidden;
 
-    &:hover div {
+    &:hover a {
       top: 0;
     }
 
-    div {
+    a {
       position: absolute;
       background: rgba($color-black, 0.9);
       height: 100%;

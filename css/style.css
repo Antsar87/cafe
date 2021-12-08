@@ -221,6 +221,11 @@ a {
   justify-content: center;
   gap: 5rem; }
 
+.recommend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
+  justify-content: space-around; }
+
 .about-me {
   background: white; }
   .about-me__img {
@@ -449,6 +454,20 @@ a {
         .review__content--circle-box div:not(:last-child) {
           background: #a99384; }
 
+.recommend {
+  text-align: center;
+  border-bottom: 1px solid #262525; }
+  .recommend h2 {
+    color: #a99384;
+    text-transform: capitalize;
+    font-size: 4rem; }
+  .recommend main img {
+    width: 100%; }
+  .recommend main p {
+    color: #a99384;
+    padding: 2rem 0;
+    font-size: 2rem; }
+
 .site__section {
   background: #e6e7e6;
   padding: 3rem 0; }
@@ -477,9 +496,9 @@ a {
 .galery__box {
   position: relative;
   overflow: hidden; }
-  .galery__box:hover div {
+  .galery__box:hover a {
     top: 0; }
-  .galery__box div {
+  .galery__box a {
     position: absolute;
     background: rgba(38, 37, 37, 0.9);
     height: 100%;
@@ -491,7 +510,7 @@ a {
     top: 100%;
     transition: all 1s ease;
     color: white; }
-    .galery__box div h2 {
+    .galery__box a h2 {
       padding-bottom: 2rem; }
 
 .footer {

@@ -1,0 +1,21 @@
+.recommend {
+  text-align: center;
+  border-bottom: 1px solid $color-black;
+
+  h2 {
+    color: $color-brown;
+    text-transform: capitalize;
+    font-size: 4rem;
+  }
+
+  main {
+    img {
+      width: 100%;
+    }
+    p{
+      color: $color-brown;
+      padding:2rem 0;
+      font-size: 2rem;
+    }
+  }
+}
