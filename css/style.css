@@ -204,7 +204,10 @@ a {
 
 .site__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr)); }
+  grid-template-columns: 1fr; }
+  @media (min-width: 616px) {
+    .site__grid {
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); } }
 
 .header-about-grid {
   display: grid;
