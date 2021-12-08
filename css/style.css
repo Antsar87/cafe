@@ -614,11 +614,16 @@ a {
     align-items: center;
     gap: 2rem;
     margin-bottom: 2rem; }
-    .footer__box div {
-      border: 3px solid #262525;
+    .footer__box a {
       height: 4rem;
       width: 4rem;
-      border-radius: 50%; }
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background: #262525;
+      font-size: 2rem; }
   .footer p {
     font-size: 2rem;
     font-weight: 700; }

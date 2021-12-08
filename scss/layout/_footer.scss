@@ -10,11 +10,15 @@
     gap: 2rem;
     margin-bottom: 2rem;
 
-    div {
-      border: 3px solid $color-black;
+    a {
       height: 4rem;
       width: 4rem;
       border-radius: 50%;
+      @include flex-center-center;
+      color: $color-white;
+      background: $color-black;
+
+      font-size: 2rem;
     }
   }
   p {
