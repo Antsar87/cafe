@@ -4,7 +4,7 @@
       rgba($color-black, 0.582),
       rgba($color-black, 0.582)
     ),
-    url(../images/hero.jpg)  top / cover;
+    url(../images/hero.jpg) top / cover;
   height: 100vh;
   position: relative;
 
@@ -28,12 +28,13 @@
       h2 {
         font-size: 5rem;
         line-height: initial;
+        margin-bottom: 5rem;
       }
       p {
-        margin: 5rem 0;
         line-height: 2rem;
       }
       a {
+        margin-top: 5rem;
         display: inline-block;
       }
     }

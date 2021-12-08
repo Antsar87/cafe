@@ -293,11 +293,12 @@ a {
       color: white; }
       .header__content--box h2 {
         font-size: 5rem;
-        line-height: initial; }
+        line-height: initial;
+        margin-bottom: 5rem; }
       .header__content--box p {
-        margin: 5rem 0;
         line-height: 2rem; }
       .header__content--box a {
+        margin-top: 5rem;
         display: inline-block; }
 
 .header-about__box--1__title {
